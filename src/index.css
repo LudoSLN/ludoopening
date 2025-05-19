@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+.chess-gradient {
+  background: linear-gradient(to bottom, #2d3748, #1a202c);
+}
