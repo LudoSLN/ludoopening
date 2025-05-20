@@ -40,8 +40,8 @@ export function Chessboard({ onPieceDrop, className = '' }: ChessboardProps) {
             borderRadius: '4px',
             boxShadow: '0 2px 10px rgba(0, 0, 0, 0.5)',
           }}
-          customDarkSquareStyle={{ backgroundColor: '#779952' }}
-          customLightSquareStyle={{ backgroundColor: '#edeed1' }}
+          customDarkSquareStyle={{ backgroundColor: '#ff0000' }}
+          customLightSquareStyle={{ backgroundColor: '#ffffff' }}
         />
       </div>
       
